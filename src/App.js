@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import ScrollableTabsButtonForce from "./components/Navigation/Navigation";
 import Main from "./Components/Main/Main";
+import About from "./Components/About/About";
 // import ProjectCardList from "./components/ProjectCardList/ProjectCardList";
 // import Experience from "./components/Experience/Experience";
 // import Skill from "./components/Skill/Skill";
@@ -15,6 +16,7 @@ class App extends Component {
         {/* <ScrollableTabsButtonForce />
         <Section> */}
           <Main />
+          <About />
         {/* </Section> */}
       </React.Fragment>
     );
