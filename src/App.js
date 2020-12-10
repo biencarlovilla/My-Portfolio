@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import ScrollableTabsButtonForce from "./components/Navigation/Navigation";
 import Main from "./Components/Main/Main";
 import About from "./Components/About/About";
+import Portfolio from "./Components/Portfolio/Portfolio";
 // import ProjectCardList from "./components/ProjectCardList/ProjectCardList";
 // import Experience from "./components/Experience/Experience";
 // import Skill from "./components/Skill/Skill";
@@ -17,6 +18,7 @@ class App extends Component {
         <Section> */}
           <Main />
           <About />
+          <Portfolio />
         {/* </Section> */}
       </React.Fragment>
     );
