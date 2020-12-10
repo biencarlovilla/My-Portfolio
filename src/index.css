@@ -212,3 +212,19 @@ a:hover {
 	color: #0FA0CE;
 }
 
+/* Misc
+********************************************************************* */
+
+.icon {
+	padding-right: 10px;
+	color: black;
+}
+.block {
+	width: 250px;
+	height: 2px;
+	background: black; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, black 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, black 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, black 0%, #5fc3e4 100%);
+	margin-bottom: 50px;
+}
