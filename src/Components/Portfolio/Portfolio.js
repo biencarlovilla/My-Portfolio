@@ -3,7 +3,7 @@ import React from "react";
 // import { Typography } from "@material-ui/core";
 import "./style.css";
 
-const Main = () => {
+const Portfolio = () => {
   return (
     <React.Fragment>
       <section id="portfolio">
@@ -14,7 +14,6 @@ const Main = () => {
             
             <div class="row">
                 <div class="six columns">
-
                     <div class="card">
                         <img src="images/covid-checker.png" class="card-img-top" alt="covid-fact-check" />
                         <div class="card-body">
@@ -26,7 +25,6 @@ const Main = () => {
                         <li class="list-group-item">GitHub Repo:  <a href="https://github.com/biencarlovilla/factCheck/tree/homepage" class="card-link">https://github.com/biencarlovilla/factCheck/tree/homepage</a></li>
                         </ul>
                     </div>
-
                 </div>
 
                 <div class="six columns">
@@ -45,38 +43,34 @@ const Main = () => {
             </div>
 
             <div class="row">
-        <div class="six columns"> 
-
-            <div class="card">
-                <img src="images/views.png" class="card-img-top" alt="eat-da-burger" />
-                <div class="card-body">
-                  <h5 class="card-title">Eat-Da-Burger</h5>
-                  <p class="card-text">Yumm </p>
+                <div class="six columns"> 
+                    <div class="card">
+                        <img src="images/views.png" class="card-img-top" alt="eat-da-burger" />
+                        <div class="card-body">
+                        <h5 class="card-title">Eat-Da-Burger</h5>
+                        <p class="card-text">Yumm </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Heroku Deployed Link: <a href="https://evening-dawn-64285.herokuapp.com/" class="card-link">https://evening-dawn-64285.herokuapp.com/</a></li>
+                        <li class="list-group-item">GitHub Repo: <a href="https://github.com/biencarlovilla/Node-Express-Handlebars" class="card-link">https://github.com/biencarlovilla/Node-Express-Handlebars</a></li>
+                        </ul>
+                     </div>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Heroku Deployed Link: <a href="https://evening-dawn-64285.herokuapp.com/" class="card-link">https://evening-dawn-64285.herokuapp.com/</a></li>
-                  <li class="list-group-item">GitHub Repo: <a href="https://github.com/biencarlovilla/Node-Express-Handlebars" class="card-link">https://github.com/biencarlovilla/Node-Express-Handlebars</a></li>
-                </ul>
-              </div>
 
-        </div>
-        <div class="six columns">
-            
-            <div class="card">
-                <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
-                <div class="card-body">
-                  <h5 class="card-title">Weather Dashboard</h5>
-                  <p class="card-text">This project shows information on weather on cities around usa</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Deployed Link: <a href="https://biencarlovilla.github.io/weather-dashboard/" class="card-link">https://biencarlovilla.github.io/weather-dashboard/</a></li>
-                  <li class="list-group-item">GitHub Repo: <a href="https://github.com/biencarlovilla/weather-dashboard" class="card-link">https://github.com/biencarlovilla/weather-dashboard</a></li>
-                </ul>
-              </div>
-        
-        </div>
-        
-      </div>
+                <div class="six columns">
+                    <div class="card">
+                        <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
+                        <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">This project shows information on weather on cities around usa</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Deployed Link: <a href="https://biencarlovilla.github.io/weather-dashboard/" class="card-link">https://biencarlovilla.github.io/weather-dashboard/</a></li>
+                        <li class="list-group-item">GitHub Repo: <a href="https://github.com/biencarlovilla/weather-dashboard" class="card-link">https://github.com/biencarlovilla/weather-dashboard</a></li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
 
 
         </div>
@@ -85,4 +79,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Portfolio;
