@@ -13,7 +13,6 @@ const About = () => {
     </div>
 
     <div class="row">
-        
     <div class="four columns">
         <img src={portrait} alt="profile_portrait" height="300" width="255"/>
     </div>
@@ -27,8 +26,30 @@ const About = () => {
             been living in the Bay Area. Some fun facts about me is that I play chess. </p>
         <i class="far fa-file-pdf file alternate icon large"></i><a href="./documents/Villa_Resume.pdf" target="_blank">Biencarlo's Resume </a>
     </div>
+    </div>
+
+    <div class="row">
+        <div class="three column">
+            <h1><i class="id badge outline icon large"></i></h1>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="four columns">
+
+        <a href="https://github.com/biencarlovilla"><i class="github icon large"></i>github/biencarlovilla</a>
+
+        <a href="https://www.linkedin.com/in/biencarlo-villa/"><i class="linkedin icon large"></i>linkedin/biencarlovilla</a>
+
+        <a href="https://www.instagram.com/biencarlovilla/"><i class="instagram icon large"></i>instagram/biencarlovilla</a>
+
+        <a href="mailto:biencarlovilla@gmail.com"><i class="envelope icon large"></i>biencarlovilla@gmail.com</a>
+
+        </div>
 
     </div>
+    
     
 </div>
 </section>
