@@ -4,6 +4,7 @@ import Main from "./Components/Main/Main";
 import About from "./Components/About/About";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 // import ProjectCardList from "./components/ProjectCardList/ProjectCardList";
 // import Experience from "./components/Experience/Experience";
 // import Skill from "./components/Skill/Skill";
@@ -21,6 +22,7 @@ class App extends Component {
           <About />
           <Portfolio />
           <Contact />
+          <Footer />
         {/* </Section> */}
       </React.Fragment>
     );
