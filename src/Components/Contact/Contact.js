@@ -15,16 +15,20 @@ const Contact = () => {
                 <div class="row">
                     <div class="six columns">
                         <label for="exampleRecipientInput">Name</label>
+                        <br />
                         <input class="u-full-width" type="text" />
                     </div>
                     <div class="six columns">
                         <label for="exampleEmailInput">Email</label>
+                        <br />
                         <input class="u-full-width" type="email" />
                     </div>
                 </div>
                 <div class="row">
                     <label for="exampleMessage">Message</label>
+                    <br />
                     <textarea class="u-full-width"></textarea>
+                    <br />
                     <input class="button-primary" type="submit" value="Submit" />
                 </div>
             </form>
