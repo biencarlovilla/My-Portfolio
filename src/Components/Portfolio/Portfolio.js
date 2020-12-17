@@ -77,7 +77,7 @@ const Portfolio = () => {
 
             <div class="row">
                 <div class="four columns"> 
-                    <Fade delay={800}>
+                    <Fade delay={200}>
                         <div>
                             <div class="card">
                                 <img src="images/views.png" class="card-img-top" alt="eat-da-burger" />
@@ -95,7 +95,7 @@ const Portfolio = () => {
                 </div>
 
                 <div class="four columns">
-                    <Fade delay={1000}>
+                    <Fade delay={400}>
                         <div>
                             <div class="card">
                                 <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
@@ -112,7 +112,7 @@ const Portfolio = () => {
                     </Fade>    
                 </div>
                 <div class="four columns"> 
-                    <Fade delay={1200}>
+                    <Fade delay={600}>
                         <div>
                             <div class="card">
                                 <img src="images/views.png" class="card-img-top" alt="eat-da-burger" />
@@ -134,7 +134,7 @@ const Portfolio = () => {
             
             <div class="row">
                 <div class="four columns">
-                    <Fade delay={1400}>
+                    <Fade delay={200}>
                         <div>
                             <div class="card">
                                 <img src="images/work-day.png" class="card-img-top" alt="work-day-planner" />
@@ -152,7 +152,7 @@ const Portfolio = () => {
                 </div>
 
                 <div class="four columns">
-                    <Fade delay={1600}>
+                    <Fade delay={400}>
                         <div>
                             <div class="card">
                                 <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
@@ -169,7 +169,7 @@ const Portfolio = () => {
                     </Fade>
                 </div>    
                 <div class="four columns">
-                    <Fade delay={1800}>
+                    <Fade delay={600}>
                         <div>
                             <div class="card">
                                 <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
