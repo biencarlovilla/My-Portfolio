@@ -1,6 +1,15 @@
 import React from "react";
 // import portfolio from "../../utils/portfolio.png";
 // import { Typography } from "@material-ui/core";
+import googlebook from "../../Assets/googlebook.png";
+import wheretogo from "../../Assets/wheretogo.png";
+import futureendeavors from "../../Assets/futureendeavors.png";
+import emp_dir from "../../Assets/emp_dir.png";
+import theoffice from "../../Assets/theoffice.png";
+import eatdaburger from "../../Assets/eatdaburger.png";
+import workdaysched from "../../Assets/workdaysched.png";
+import weatherdash from "../../Assets/weatherdash.png";
+import notetaker from "../../Assets/notetaker.png";
 import Fade from 'react-reveal/Fade';
 import "./style.css";
 
@@ -22,7 +31,7 @@ const Portfolio = () => {
                     <Fade delay={200}>
                         <div>
                             <div class="card">
-                                <img src="images/covid-checker.png" class="card-img-top" alt="covid-fact-check" />
+                                <img src={googlebook} alt="googlebook_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Google Book Search</h5>
                                 <p class="card-text">For this project, I used react and generated an API key from google</p>
@@ -40,7 +49,7 @@ const Portfolio = () => {
                     <Fade delay={400}>
                         <div>
                             <div class="card">
-                                <img src="images/views.png" class="card-img-top" alt="eat-da-burger" />
+                                <img src={wheretogo} alt="wheretogo_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Where To Go</h5>
                                 <p class="card-text">I collaborated with other developeres to build this project with Mern Stack </p>
@@ -58,7 +67,7 @@ const Portfolio = () => {
                     <Fade delay={600}>
                         <div>
                             <div class="card">
-                                <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
+                                <img src={futureendeavors} alt="futureendeavors_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Future Endeavors</h5>
                                 <p class="card-text">This project allows users to create an account and saves it to database</p>
@@ -80,7 +89,7 @@ const Portfolio = () => {
                     <Fade delay={200}>
                         <div>
                             <div class="card">
-                                <img src="images/views.png" class="card-img-top" alt="eat-da-burger" />
+                                <img src={emp_dir} alt="emp_dir_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Employee Directory</h5>
                                 <p class="card-text">For this project, I created an employee directory with React</p>
@@ -98,7 +107,7 @@ const Portfolio = () => {
                     <Fade delay={400}>
                         <div>
                             <div class="card">
-                                <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
+                                <img src={theoffice} alt="theoffice_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Click Game</h5>
                                 <p class="card-text">For this project, I created a click game using React</p>
@@ -115,7 +124,7 @@ const Portfolio = () => {
                     <Fade delay={600}>
                         <div>
                             <div class="card">
-                                <img src="images/views.png" class="card-img-top" alt="eat-da-burger" />
+                                <img src={eatdaburger} alt="eatdaburger_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Eat Da Burger</h5>
                                 <p class="card-text">I created an app that saves the user input in my local database </p>
@@ -137,7 +146,7 @@ const Portfolio = () => {
                     <Fade delay={200}>
                         <div>
                             <div class="card">
-                                <img src="images/work-day.png" class="card-img-top" alt="work-day-planner" />
+                                <img src={workdaysched} alt="workdaysched_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Work Day Dashboard</h5>
                                 <p class="card-text">This project allows you to create your day schedule.</p>
@@ -155,7 +164,7 @@ const Portfolio = () => {
                     <Fade delay={400}>
                         <div>
                             <div class="card">
-                                <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
+                                <img src={weatherdash} alt="weatherdash_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Weather Dashboard</h5>
                                 <p class="card-text">This project shows information on weather on cities around usa</p>
@@ -172,7 +181,7 @@ const Portfolio = () => {
                     <Fade delay={600}>
                         <div>
                             <div class="card">
-                                <img src="images/weather-dash.png" class="card-img-top" alt="weather-dashboard" />
+                                <img src={notetaker} alt="notetaker_img" height="250" width="300"/>
                                 <div class="card-body">
                                 <h5 class="card-title">Note Taker</h5>
                                 <p class="card-text">This project is about generating a note taker app that uses node, express.</p>
