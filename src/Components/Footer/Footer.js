@@ -9,7 +9,7 @@ const Contact = () => {
         <footer>
             <div class="container">
                 <div class="nine columns">
-                    <p>Biencarlo Villa 2020</p>
+                    <p>© 2020 Copyright: Biencarlo Villa</p>
                 </div>
                 <div class="three columns"> 
                     <span class="typcn typcn-social-facebook-circular socialIcons"></span> 
