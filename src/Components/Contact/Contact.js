@@ -11,27 +11,19 @@ const Contact = () => {
             <h1><i class="chess icon"></i>Contact</h1>
             <div class="block"></div>
 
-            <form>
+            
                 <div class="row">
-                    <div class="six columns">
-                        <label for="exampleRecipientInput">Name</label>
-                        <br />
-                        <input class="u-full-width" type="text" />
-                    </div>
-                    <div class="six columns">
-                        <label for="exampleEmailInput">Email</label>
-                        <br />
-                        <input class="u-full-width" type="email" />
-                    </div>
+                <a href="mailto:biencarlovilla@gmail.com"><input class="button-primary" type="submit" value="Let's Connect!" /></a>
                 </div>
-                <div class="row">
-                    <label for="exampleMessage">Message</label>
-                    <br />
-                    <textarea class="u-full-width"></textarea>
-                    <br />
-                    <input class="button-primary" type="submit" value="Submit" />
+                
+                <div>
+                <a href="https://github.com/biencarlovilla"><i class="github icon large"></i></a>
+        
+                <a href="https://www.linkedin.com/in/biencarlo-villa/"><i class="linkedin icon large"></i></a>
+
+                <a href="https://www.instagram.com/biencarlovilla/"><i class="instagram icon large"></i></a>
                 </div>
-            </form>
+
 
         </div>
      </section>

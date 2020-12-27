@@ -1,19 +1,6 @@
 #contact {
 	padding: 100px 0 100px 0;
 }
-input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
-	height: 38px;
-	padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-	background-color: #F5F5F5;
-	border: none;
-	box-shadow: none;
-	box-sizing: border-box;
-	border-radius: 0;
-	outline: none;
-}
-textarea {
-	min-height: 250px;
-}
 input[type="submit"] {
 	display: inline-block;
 	height: 38px;
@@ -27,7 +14,7 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background: #5fc3e4;
+	background: #346a7c;
 	border-radius: 0px;
 	border: 0;
 	cursor: pointer;
@@ -36,19 +23,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background: black;
 	text-decoration: none;
-}
-
-.u-full-width {
-	width: 100%;
-	box-sizing: border-box;
-}
-.u-max-full-width {
-	max-width: 100%;
-	box-sizing: border-box;
-}
-.u-pull-right {
-	float: right;
-}
-.u-pull-left {
-	float: left;
 }
