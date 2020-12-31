@@ -1,5 +1,6 @@
 import React from "react";
 import portrait from "../../Assets/portrait.png";
+import Pdf from "../../Assets/pdf_Villa_Resume.pdf";
 import Fade from 'react-reveal/Fade';
 import "./style.css";
 
@@ -31,15 +32,8 @@ const About = () => {
             these experiences and be valuable to a company. I grew up in the Philippines and I've 
             been living in the Bay Area. Some fun facts about me is that I play chess. </p>
 
-        <a href="./documents/Villa_Resume.pdf"><i class="file alternate icon large"></i> </a>
+        <a href={Pdf} target = "_blank" rel="noreferrer"><input class="button-primary" type="submit" value="Resume" /></a>
 
-        <a href="https://github.com/biencarlovilla"><i class="github icon large"></i></a>
-        
-        <a href="https://www.linkedin.com/in/biencarlo-villa/"><i class="linkedin icon large"></i></a>
-        
-        <a href="https://www.instagram.com/biencarlovilla/"><i class="instagram icon large"></i></a>
-       
-        <a href="mailto:biencarlovilla@gmail.com"><i class="envelope icon large"></i></a>
         </Fade>
     </div>
     
