@@ -13,9 +13,19 @@ const Skills = () => {
                         <div class="block"></div>
                     </div>
                 </Fade>
-
-                <div class="row">
                 
+                <div class="row">
+                    <div class="skills-icons">
+
+                        <i class="html5 icon large"></i>
+                        <i class="css3 icon large"></i>
+                        <i class="js icon large"></i>
+                        <i class="node js icon large"></i>
+                        <i class="npm icon large"></i>
+                        <i class="react icon large"></i>
+                        <i class="database icon large"></i>
+
+                    </div>
                 </div>
 
             </div>
