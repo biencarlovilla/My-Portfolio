@@ -18,7 +18,7 @@ const About = () => {
     <div class="row">
     <Fade delay={600}>
     <div class="four columns">
-        <img src={portrait} alt="profile_portrait" height="300" width="255"/>
+        <img src={portrait} alt="profile_portrait" height="335" width="285"/>
     </div>
     </Fade>
     
@@ -26,11 +26,15 @@ const About = () => {
     <Fade delay={1000}>
         <p><h2>Hello, I'm Biencarlo</h2>
             <br />
-            As an aspiring professional in the tech field, my goal is to get a job in a company where I can utilize my 
-            skills and improve my career path. Coming from a financial company, I was able to further my knowledge and 
-            expose myself on a day to day basis of an effective working environment. I’m confident that I can apply 
-            these experiences and be valuable to a company. I grew up in the Philippines and I've 
-            been living in the Bay Area. Some fun facts about me is that I play chess. </p>
+            As an aspiring professional in the tech field, my ultimate goal is to be part of a respectable 
+            company where I can utilize my skills and grow professionally while progressing in my career path.
+            Having experience as a database administrator intern at Paypal, I was exposed to an effective working
+            environment and building strong relationship with the team. After that, I wanted to further my education 
+            by enrolling to UC Berkeley coding bootcamp focusing as a full flex web developer. 
+        </p>
+        <p>
+            I'm confident I can apply the numerous skills I have acquired and be of great value. 
+         </p>
 
         <a href={Pdf} target = "_blank" rel="noreferrer"><input class="button-primary" type="submit" value="Resume" /></a>
 
