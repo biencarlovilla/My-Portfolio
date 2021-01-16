@@ -18,7 +18,7 @@ const About = () => {
     <div class="row">
     <Fade delay={600}>
     <div class="four columns">
-        <img src={portrait} alt="profile_portrait" height="335" width="285"/>
+        <img src={portrait} alt="profile_portrait" height="350" width="285"/>
     </div>
     </Fade>
     
