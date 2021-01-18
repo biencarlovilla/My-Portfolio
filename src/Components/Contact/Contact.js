@@ -23,7 +23,7 @@ const Contact = () => {
               
                   <div class="align">
                   
-                      <a href="mailto:biencarlovilla@gmail.com"><input class="button-primary" type="submit" value="Let's get to work!" /></a>
+                      <a href="mailto:biencarlovilla@gmail.com"><input class="button-primary" type="submit" value="Let's Connect!" /></a>
                       <br />
                       <br />
                       <i class="user icon "></i>Biencarlo Villa

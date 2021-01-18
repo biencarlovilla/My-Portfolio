@@ -2,7 +2,6 @@ import React, { Component } from "react";
 // import Navigation from "./Components/Navigation/Navigation";
 import Main from "./Components/Main/Main";
 import About from "./Components/About/About";
-import Skills from "./Components/Skills/Skills";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -19,7 +18,6 @@ class App extends Component {
       <React.Fragment>
           <Main />
           <About />
-          <Skills />
           <Portfolio />
           <Contact />
           <Footer />

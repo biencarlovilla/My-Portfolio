@@ -14,7 +14,6 @@ const Main = () => {
           <ul>
             <li><a class="smoothscroll" href="#header">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#skills">Skills</a></li>
             <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
           </ul>

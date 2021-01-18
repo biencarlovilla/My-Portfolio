@@ -9,7 +9,7 @@ const Contact = () => {
         <footer>
             <div class="container">
                 <div class="row">
-                    <p>© 2020 - Biencarlo Villa's Portfolio</p>
+                    <p>© 2021 - Biencarlo Villa's Portfolio</p>
                 </div>
                 <div class="row"> 
                     <div class="logo">
