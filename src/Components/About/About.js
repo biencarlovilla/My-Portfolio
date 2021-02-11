@@ -40,11 +40,13 @@ const About = () => {
 
                             </Fade>
 
-                            <Fade delay={1000}> 
+                        </div>
+
+                        <Fade delay={1000}> 
                                 <div class="row">
                                     <div class="skills-icons">
-                        
-                                        <i class="html5 icon large" alt="HTML5"></i>
+                                        <i class="code icon large"></i>
+                                        <i class="html5 icon large"></i>
                                         <i class="css3 icon large"></i>
                                         <i class="js icon large"></i>
                                         <i class="node js icon large"></i>
@@ -54,8 +56,6 @@ const About = () => {
                                     </div>
                                 </div>
                             </Fade>
-
-                        </div>
                     
                     </div>
 
