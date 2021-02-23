@@ -1,6 +1,6 @@
 import React from "react";
 import portrait from "../../Assets/portrait.png";
-import Pdf from "../../Assets/pdf_Villa_Resume.pdf";
+import Pdf from "../../Assets/Villa_Resume_PDF.pdf";
 import Fade from 'react-reveal/Fade';
 import "./style.css";
 
@@ -42,20 +42,6 @@ const About = () => {
 
                         </div>
 
-                        <Fade delay={1000}> 
-                                <div class="row">
-                                    <div class="skills-icons">
-                                        <i class="code icon large"></i>
-                                        <i class="html5 icon large"></i>
-                                        <i class="css3 icon large"></i>
-                                        <i class="js icon large"></i>
-                                        <i class="node js icon large"></i>
-                                        <i class="react icon large"></i>
-                                        <i class="database icon large"></i>
-                            
-                                    </div>
-                                </div>
-                            </Fade>
                     
                     </div>
 
