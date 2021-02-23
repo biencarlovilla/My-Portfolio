@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.8b0b8361.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.18199104.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.18199104.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.58d510af.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.58d510af.js.map",
+    "static/js/2.fcd7d3a5.chunk.js": "/My-Portfolio/static/js/2.fcd7d3a5.chunk.js",
+    "static/js/2.fcd7d3a5.chunk.js.map": "/My-Portfolio/static/js/2.fcd7d3a5.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "static/css/main.8b0b8361.chunk.css.map": "/My-Portfolio/static/css/main.8b0b8361.chunk.css.map",
+    "static/js/2.fcd7d3a5.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.fcd7d3a5.chunk.js.LICENSE.txt",
+    "static/media/Villa_Resume_PDF.60366174.pdf": "/My-Portfolio/static/media/Villa_Resume_PDF.60366174.pdf",
+    "static/media/style.css": "/My-Portfolio/static/media/contact-bg.db80bffd.png",
+    "static/media/emp_dir.59d27e72.png": "/My-Portfolio/static/media/emp_dir.59d27e72.png",
+    "static/media/futureendeavors.982476d1.png": "/My-Portfolio/static/media/futureendeavors.982476d1.png",
+    "static/media/googlebook.9259473c.png": "/My-Portfolio/static/media/googlebook.9259473c.png",
+    "static/media/notetaker.3af7fc7a.png": "/My-Portfolio/static/media/notetaker.3af7fc7a.png",
+    "static/media/portrait.a9a0dae8.png": "/My-Portfolio/static/media/portrait.a9a0dae8.png",
+    "static/media/weatherdash.f030d28c.png": "/My-Portfolio/static/media/weatherdash.f030d28c.png",
+    "static/media/wheretogo.5be39b64.png": "/My-Portfolio/static/media/wheretogo.5be39b64.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58d510af.js",
+    "static/js/2.fcd7d3a5.chunk.js",
+    "static/css/main.8b0b8361.chunk.css",
+    "static/js/main.18199104.chunk.js"
+  ]
+}
